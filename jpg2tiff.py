@@ -61,7 +61,7 @@ def jpg_to_tiff_mask(jpg_path, output_folder):
 
 
 if __name__ == "__main__":
-    input_folder = "###########"  #你的地址
+    input_folder = "###########"  #你的地址，图片所在文件夹
     output_folder = "##########"  #你的地址
     os.makedirs(output_folder, exist_ok=True)
 
