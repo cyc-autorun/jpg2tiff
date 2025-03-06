@@ -61,8 +61,8 @@ def jpg_to_tiff_mask(jpg_path, output_folder):
 
 
 if __name__ == "__main__":
-    input_folder = "C:/Users/18281/OneDrive/Desktop/label"
-    output_folder = "C:/Users/18281/OneDrive/Desktop/label"
+    input_folder = "###########"  #你的地址
+    output_folder = "##########"  #你的地址
     os.makedirs(output_folder, exist_ok=True)
 
     for filename in os.listdir(input_folder):
